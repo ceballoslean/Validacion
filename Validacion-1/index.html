@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Validacion 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="scroll">
+        <div class="wrap">
+            <header>Enviar Nuevo Email</header>
+            <form id="enviar-email">
+                <div class="mb">
+                    <label for="email">Para:</label>
+                    <input class="bg" type="email" id="email">
+                </div>
+
+                <div class="mb">
+                    <label for="asunto">Asunto:</label>
+                    <input class="bg" type="text" id="asunto">
+                </div>
+
+                <div class="mb">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" class="bg" id="mensaje"></textarea>
+                </div>
+
+                <div  id="spinner">
+                    <div class="sk-chase">
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="btns">
+                    <button id="enviar" class="enviar" type="submit">Enviar<i class="material-icons right text-white ml-3">send</i></button>
+    
+                    <button id="resetBtn" class="reset" type="submit">Resetear Form<i class="material-icons right ml-3">delete</i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/app.js"></script>i
+</body>
+</html>
